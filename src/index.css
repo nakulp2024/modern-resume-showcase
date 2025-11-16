@@ -8,43 +8,49 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 40 20% 97%;
-    --foreground: 230 35% 15%;
+    --background: 0 0% 5%;
+    --foreground: 0 0% 98%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 230 35% 15%;
+    --card: 0 0% 10%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 230 35% 15%;
+    --popover: 0 0% 10%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 230 65% 50%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 262 100% 65%;
+    --primary-foreground: 0 0% 98%;
 
-    --secondary: 330 70% 65%;
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 180 100% 50%;
+    --secondary-foreground: 0 0% 10%;
 
-    --muted: 40 20% 92%;
-    --muted-foreground: 230 20% 45%;
+    --muted: 0 0% 20%;
+    --muted-foreground: 0 0% 70%;
 
-    --accent: 25 85% 60%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 340 100% 60%;
+    --accent-foreground: 0 0% 98%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 100%;
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 40 20% 85%;
-    --input: 40 20% 85%;
-    --ring: 230 65% 50%;
+    --border: 0 0% 90%;
+    --input: 0 0% 20%;
+    --ring: 262 100% 65%;
 
-    --radius: 1rem;
+    --radius: 0.5rem;
     
     /* Custom colors for portfolio */
-    --hero-gradient-start: 330 70% 70%;
-    --hero-gradient-end: 230 65% 55%;
-    --section-blue: 230 65% 50%;
-    --section-orange: 25 85% 60%;
-    --section-pink: 330 70% 65%;
-    --section-cream: 40 20% 95%;
+    --hero-gradient-start: 262 100% 65%;
+    --hero-gradient-end: 340 100% 60%;
+    --section-blue: 217 100% 60%;
+    --section-orange: 27 100% 60%;
+    --section-pink: 340 100% 60%;
+    --section-cream: 43 100% 70%;
+    --neon-green: 150 100% 50%;
+    --neon-yellow: 60 100% 50%;
+    --neon-cyan: 180 100% 50%;
+    --shadow-pink: 340 100% 60%;
+    --shadow-blue: 217 100% 60%;
+    --shadow-yellow: 60 100% 50%;
     
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
