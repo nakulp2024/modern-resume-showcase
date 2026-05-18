@@ -1,19 +1,25 @@
-import Hero from "@/components/Hero";
-import Experience from "@/components/Experience";
-import Skills from "@/components/Skills";
-import Education from "@/components/Education";
-import Contact from "@/components/Contact";
-import Footer from "@/components/Footer";
+import { Hero } from "@/components/sections/Hero";
+import { Problem } from "@/components/sections/Problem";
+import { WhatIDo } from "@/components/sections/WhatIDo";
+import { Stack } from "@/components/sections/Stack";
+import { Scale } from "@/components/sections/Scale";
+import { HowIWork } from "@/components/sections/HowIWork";
+import { Contact } from "@/components/sections/Contact";
+import { ProgressRail } from "@/components/ProgressRail";
 
 const Index = () => {
   return (
-    <div className="min-h-screen">
-      <Hero />
-      <Experience />
-      <Skills />
-      <Education />
-      <Contact />
-      <Footer />
+    <div id="top" className="relative min-h-screen bg-ink text-bone">
+      <ProgressRail />
+      <main>
+        <Hero />
+        <Problem />
+        <WhatIDo />
+        <Stack />
+        <Scale />
+        <HowIWork />
+        <Contact />
+      </main>
     </div>
   );
 };
